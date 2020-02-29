@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+
+body{
+	 background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("img/hero-mainSpidey.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+	
+}
+
+body img{
+	
+}
+
+.logo{
+	width:100px;
+	margin-top: 18px;
+	
+}
+
+
+
+.header{
+	height: 10%;
+	
+}
+
+
+.header-btn{
+	text-decoration: none;
+	border-radius: 30px;
+	padding:7px 20px;
+	float: right;
+	margin-top: 10px;
+	color:white;
+	background-color:#FF2A2D;
+	font-weight:600;
+	
+	
+	
+}
+.header-btn:hover{
+	text-decoration: none;
+	color: white;
+	background-color: transparent;
+	
+}
+
+.movie-details{
+	margin:3% 3%;
+}
+
+.left-box{
+	color:white;
+	font-weight: 700;
+	margin: 15px 0;
+	padding: 25px;
+	
+}
+
+.left-box p{
+	color: white;
+	font-weight: 500;
+}
+
+.left-box a{
+		text-decoration: none;
+	border-radius: 30px;
+	padding:7px 15px;
+	margin-top: 35px;
+	color:white;
+	
+	font-weight:600;
+	display: inline-block;
+	margin-right:10px;
+}
+
+.trailer-btn{
+	border: 2px solid white;
+	background-color:transparent;
+}
+.showtime-btn{
+	border: 2px solid white;
+	background-color:transparent;
+}
+
+.trailer-btn:hover{
+	border: 1px solid white;
+	background-color:transparent;
+}
+.showtime-btn:hover{
+	border: 1px solid white;
+	background-color:transparent;
+	
+}
+
+i{
+	margin:0 5px;
+}
+
+.movie-img{
+	height: 350px;
+	box-shadow: -4px 4px 5px 0 #000;
+	
+}
+
+.series{
+	color: white;
+	padding-top: 20px;
+}
+
+.series a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+
+.series a:hover{
+	color: red;
+}
+
+.series img{
+	width:100%;
+	margin-top:30px;
+	box-shadow: -4px 4px 5px 0 #000;
+	cursor:pointer;
+}
+
+.series img:hover{
+	transform:translateY(-10px);
+	transition: 1s;
+}
+
+hr{
+	
+	background-color: white;
+}
+

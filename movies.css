@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#000000;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: 'Open Sans' ;
+	
+}
+
+p,h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', ;
+}
+
+.logo{
+	width:100px;
+	margin-top: 18px;
+	
+}
+
+
+
+.header{
+	height: 10%;
+	
+}
+
+
+.header-btn{
+	text-decoration: none;
+	border-radius: 30px;
+	padding:7px 20px;
+	float: right;
+	margin-top: 10px;
+	color:white;
+	background-color:#FF2A2D;
+	font-weight:600;
+	
+	
+	
+}
+.header-btn:hover{
+	text-decoration: none;
+	color: white;
+	background-color: transparent;
+	
+}
+i{
+	margin:0 5px;
+}
+
+
+
+.series{
+	color: white;
+	padding-top: 20px;
+	
+}
+
+.series a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+
+.series a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+.series img{
+	width:100%;
+	margin-top:30px;
+	box-shadow: -4px 4px 5px 0 #000;
+	cursor:pointer;
+}
+
+.series img:hover{
+	transform:translateY(-10px);
+	transition: 1s;
+}
+
+hr{
+	
+	background-color: white;
+}
+
+.movieTitle{
+			  color: white;
+			  font-size: 16px;
+			  padding-top: 3%;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	text-align: center;
+			  
+		  }
+
+.movieTitle:hover{
+	color: red;
+}
+		  .movieContent{
+			  color: #AAAAAA;
+			  font-size: 14px;
+			  font-family: 'Open Sans';
+			  text-align: center;
+		  }
+.coming{
+	float:right;
+}
+
+.footer{
+	padding-top: 90px;
+	color: white;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 12px;
+	
+}
+
+
+
+
